@@ -1,0 +1,34 @@
+body {
+    background-color: grey;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+p {
+    background-color: darkblue;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 10px;
+    color: white;
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+div,p>a {
+    text-decoration: none;
+}
+div>p:hover {
+    border: 2px solid rgb(30, 182, 247);
+}
+div>p:hover a {
+    text-decoration: 2px underline red;
+}
